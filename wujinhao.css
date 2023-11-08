@@ -1,4 +1,4 @@
-#bac{
+#bac {
     margin: 0px;
     background-image: url(./Hanser.png);
     width: 100%;
@@ -6,7 +6,8 @@
     top: 0px;
     padding: 0px;
 }
-.head{
+
+.head {
     display: inline-block;
     margin: 0px auto;
     margin-left: 100px;
@@ -16,27 +17,46 @@
     color: gray;
     font-family: YouYuan;
 }
-.xiaohui{
+
+.xiaohui {
     width: 80px;
     height: 80px;
     margin: 0 auto auto 0;
 }
-.k{
+
+.k {
     width: 300px;
     height: 100px;
     background-color: white;
     text-align: center;
+    line-height: 100px;
     margin: auto auto auto 60px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
-.o{
-    width: 300px;
-    height: 20px;
-}
-.tudu{
+
+.tudu {
     margin: auto 0px auto auto;
     display: inline-block;
     width: 120px;
     height: 100px;
-    
+
+}
+
+.y {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-left: 500px;
+    background-color: white;
+    margin-top: 250px;
+}
+
+div a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: #4c4c4c;
+    color: chocolate;
 }
