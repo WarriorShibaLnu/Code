@@ -13,6 +13,8 @@
     width: 80px;
     height: 80px;
     margin: 0 auto auto 0;
+    position: absolute;
+    top: 7px;
 }
 
 .k {
@@ -35,13 +37,13 @@
 
 .daohang{
     background-color: white;
-    height: 50px;
+    height: 54px;
     border-top: 3px solid rgb(130, 208, 250);
     border-bottom: 1px solid #4c4c4c;
 }
-div a{
+a{
     display: inline-block;
-    width: 100px;
+    padding: 0 16px;
     height: 50px;
     text-align: center;
     line-height: 50px;
@@ -49,7 +51,7 @@ div a{
 
 }
 
-div a:hover{
+a:hover{
     background-color: #dadadd;
     color: brown;
 }
@@ -60,8 +62,35 @@ div a:hover{
     height: 40px;
 }
 
+select,
+option{
+    border: none;
+}
+
 div h1{
     display: inline-block;
     height: 50px;
     width: auto;
 }
+
+.dl{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 300px auto;
+    border: 2px solid gray;
+}
+
+/*.lll{
+    margin: 0 auto;
+}*/
+
+.lg{
+    position: absolute;
+    top: 7px;
+    left: 670px;
+}
+
+
+
+
