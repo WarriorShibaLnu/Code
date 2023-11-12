@@ -62,17 +62,6 @@ a:hover{
     height: 40px;
 }
 
-select,
-option{
-    border: none;
-}
-
-div h1{
-    display: inline-block;
-    height: 50px;
-    width: auto;
-}
-
 .dl{
     width: 400px;
     height: 200px;
@@ -81,14 +70,19 @@ div h1{
     border: 2px solid gray;
 }
 
-/*.lll{
-    margin: 0 auto;
-}*/
 
 .lg{
     position: absolute;
     top: 7px;
-    left: 670px;
+    left: 550px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
 }
 
 
